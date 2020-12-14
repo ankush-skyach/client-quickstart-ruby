@@ -35,6 +35,9 @@ get '/token' do
   grant.incoming_allow = true
 
   # Create an Access Token
+
+
+
   token = Twilio::JWT::AccessToken.new(
     account_sid,
     api_key,
